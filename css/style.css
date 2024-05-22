@@ -1,0 +1,35 @@
+/* Pas besoin d'y toucher ! (normalement)*/
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Pourchanger la couleur de fond du site*/
+}
+
+.container {
+    position: relative;
+}
+
+#imagedecon {
+    width: 200px; /* Si votre image est trop grande ou trop petite*/
+    cursor: pointer;
+    transition: transform 0.2s; 
+}
+
+#imagedecon:active {
+    transform: scale(1.1);
+}
+
+#gif-container {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Ne pas toucher sinon votre gif ne sera plus centrer sur image*/
+}
+
+#gif {
+    width: 1000px; /* Si votre gif est trop petit*/
+}
