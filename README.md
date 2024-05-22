@@ -14,6 +14,9 @@
 
 
 <a href="https://ibb.co/nLZZ5Xf"><img src="https://i.ibb.co/kSkkWL0/image.png" alt="image" border="0"></a>
+
+
+
 Normalement, tout est commenté, mais rendez-vous sur le fichier index.html où vous pourrez changer le répertoire ou mettre un lien redirigeant vers votre **image/audio/gif perso**.
 
 **ATTENTION À BIEN METTRE LE GIF EN TRANSPARENT** 
